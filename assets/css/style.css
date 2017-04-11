@@ -1,0 +1,140 @@
+body{
+	width:1000px;
+	margin: 0 auto;
+}
+
+
+header{
+	
+	width: auto;
+	height: 80px;
+}
+
+#headcontainer{
+	width:340px;
+	height:80px;
+	background-color:orange;
+	position: relative;
+	left: 50px;
+	display:inline-block;
+	/*border-radius:15px;*/
+
+		
+}
+#headername{
+	position:relative;
+	left: 40px;
+	
+	vertical-align: middle;
+	line-height:90px;
+	margin:0 auto;
+}
+#navstruct{
+	display: inline-block;
+	float:right;
+	position: relative;
+	top:50%;
+	right:70px;
+}
+
+/*container 1 is the main container including about me and connect wiht me*/
+#container1{
+	/*border-radius:15px;*/
+	height:600px;
+	width:auto;
+	background-color:lightgrey;
+	display: block;
+	margin-top:0;
+	margin-bottom:0;
+	border-top-style:solid;
+	border-top-width:2px;
+	border-top-color:darkgrey;
+
+	border-bottom-style:solid;
+	border-bottom-width:6px;
+	border-bottom-color:black;
+}
+
+/* container 2 is the About me container*/
+
+#container2{
+	/*border-radius:15px;*/
+	display:inline-block;
+	height:540px;
+	width:650px;
+	background-color:orange;
+	position:relative;
+	left:50px;
+	top: 30px;
+}
+
+.left{
+	position:relative;
+	left:40px;
+}
+
+.hr1{
+
+	margin: auto 25px 25px 40px;
+
+}
+
+img{
+	/*display:block;*/
+	float:left;
+	position:relative;
+	
+	width:250px;
+	margin-right: 20px;
+	margin-left:40px;
+	display:inline-block;
+
+}
+
+
+p{
+	text-align: justify;
+	line-height:25px;
+	margin-right:25px;
+	margin-left:40px;
+}
+
+/* Connect with me box */
+
+#container3{
+	/*border-radius:15px;*/
+	display:inline-block;
+	width:220px;
+	height:170px;
+	background-color:orange;
+	position:relative;
+	right:-80px;
+	top:-210px;
+	margin:0 0 0 0;
+
+}
+
+#container4{
+	/*border-radius:15px;*/
+	display:inline-block;
+	position:relative;
+	left:15px;
+	top: 10px;
+
+}
+
+.hr2{
+		margin: auto 10px 10px 10px;
+}
+/*  footer */
+
+footer{
+	/*border-radius:15px;*/
+	background-color:darkgrey;
+	margin: 0 auto;
+	padding:.1em;
+}
+
+.textcenter{
+	text-align:center;
+}
